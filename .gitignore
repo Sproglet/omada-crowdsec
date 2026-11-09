@@ -1,0 +1,17 @@
+# Local secrets and deployment-specific configuration
+.env
+secrets/*
+!secrets/.gitkeep
+config/settings.json
+config/*.before-*.json
+config/plan.json
+config/capacity-groups.json
+state/*
+!state/.gitkeep
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/

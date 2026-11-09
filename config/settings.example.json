@@ -1,0 +1,11 @@
+{
+  "site_id": "REPLACE_WITH_SITE_ID_FROM_PROBE",
+  "apply": false,
+  "controller_insecure": false,
+  "max_ips": 16,
+  "interval_seconds": 60,
+  "protected_ips": [],
+  "crowdsec_url": "http://crowdsec:8080",
+  "crowdsec_host_url": "http://127.0.0.1:8080",
+  "crowdsec_container": "crowdsec"
+}
